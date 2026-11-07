@@ -3,8 +3,18 @@ nav {
     padding: 10px;
 }
 
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+h1 {
+    color: darkblue;
+}
+
 main {
-    max-width: 840px
+    max-width: 840px;
 }
 
 aside {
@@ -25,10 +35,11 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+
 }
 
 p {
-    padding: 0
+    padding: 10px
 }
 
 footer {
