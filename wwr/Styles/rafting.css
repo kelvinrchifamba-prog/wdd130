@@ -37,5 +37,34 @@ nav, p, section,article{
 }
 .social media a {
     text-decoration:none;
+    width: 32px;
+    height: auto;
 }
+
+.hero {
+    position: relative;
+}
+.hero img {
+     display: block;
+     width:100%;
+     height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top:20px;
+    width: 100%;
+    text-align: Center;
+    background-color:rgba(0,0,0,0.5);
+    color: white;
+    padding: 16px 0;
+}
+
+.hero article img {
+    float: right;
+    width:125px;
+    margin-left: 16px;
+}
+
+
     
