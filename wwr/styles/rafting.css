@@ -1,42 +1,51 @@
 :root {
-    --primary-color:#055a05;
-    --secondary-color:#f4a261;
-    --accent1-color:#264653;
+    --primary-color: #055a05;
+    --secondary-color: #f4a261;
+    --accent1-color: #264653;
     --accent2-color: #e9c46a;
-    --heading-font: "times new roman" ,"Georgia",serif;
+    --heading-font: "times new roman", "Georgia", serif;
     --body-font: "Arial", "Helvetica", sans-serif;
 }
+
 * {
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-
-header{
-    background-color:var(--primary-color);
-    color:var(--accent2-color);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-}
-body{
-    font-family:var(--body-font);
-    color:var(--accent1-color);
-}
-
-header,main,footer{
-    width:840px;
-    margin:0 auto;
-}
-h1, h2{
-    font-family:var(--heading-font);
-    color:var(--primary-color);
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
 }
 
-nav, p, section,article{
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav,
+p,
+section,
+article {
     margin: 16px;
     padding: 8px;
 }
-.social media a {
-    text-decoration:none;
+
+.socialmedia a {
+    text-decoration: none;
     width: 32px;
     height: auto;
 }
@@ -44,27 +53,34 @@ nav, p, section,article{
 .hero {
     position: relative;
 }
+
 .hero img {
-     display: block;
-     width:100%;
-     height: auto;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .hero h1 {
     position: absolute;
-    top:20px;
+    top: 20px;
     width: 100%;
     text-align: Center;
-    background-color:rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 16px 0;
 }
 
-.hero article img {
-    float: right;
-    width:125px;
-    margin-left: 16px;
+.hero article {
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+    right: 4rem;
+    background-color: var(--accent1-color);
+    color: #fff;
 }
 
-
-    
+.hero article img {
+    float: right;
+    width: 125px;
+    margin-left: 16px;
+}
