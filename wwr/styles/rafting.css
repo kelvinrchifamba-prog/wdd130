@@ -2,7 +2,7 @@
     --primary-color: #055a05;
     --secondary-color: #f4a261;
     --accent1-color: #264653;
-
+    --trans-black: rgba(0, 0, 0, 0.5);
     --heading-font: "times new roman", "Georgia", serif;
     --body-font: "Arial", "Helvetica", sans-serif;
 }
@@ -65,7 +65,7 @@ article {
     top: 20px;
     width: 100%;
     text-align: Center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: var(--trans-black);
     color: white;
     padding: 16px 0;
 }
@@ -75,7 +75,7 @@ article {
     bottom: 3rem;
     left: 3rem;
     right: 4rem;
-    background-color: var(--accent1-color);
+    background-color: var(--trans-black);
     color: #fff;
 }
 
