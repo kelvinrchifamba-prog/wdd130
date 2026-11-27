@@ -58,21 +58,23 @@
                 <div class="form-row radio-group">
                     <span class="group-label">Message Purpose</span>
                     <div class="radio-options">
-                        <label for="general">
-                            <input type="radio" id="general" name="purpose" value="general" checked>
-                            General Inquiry
-                        </label>
                         <fieldset>
                             <legend>Purpose of Contact</legend>
+
+                            <label for="general">
+                                <input type="radio" id="general" name="purpose" value="general"
+                                  checked>
+                                General Inquiry
+                            </label>
+
                             <input type="radio" id="reservation" name="purpose" value="reservation">
                             <label for="reservation">Reservation Question</label>
                             for="suggestion">
                             <input type="radio" id="suggestion" name="purpose" value="suggestion">
                             <label for="suggestion">Website Suggestion</label>
+                        </fieldset>
                     </div>
-                    </fieldset>
                 </div>
-
                 <div class="form-column">
                     <label for="message">Message</label>
                     <textarea id="message" name="message" rows="4" placeholder="Type here"
