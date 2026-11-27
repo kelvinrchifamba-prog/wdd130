@@ -42,7 +42,6 @@
                   allowfullscreen="" loading="lazy"
                   referrerpolicy="strict-origin-when-cross-origin"></iframe>
                 referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
             </div>
 
             <form class="contact-form">
@@ -63,18 +62,14 @@
                             <input type="radio" id="general" name="purpose" value="general" checked>
                             General Inquiry
                         </label>
-                        <label>
-                            <label for="reservation">
-                                <input type="radio" id="reservation" name="purpose"
-                                  value="reservation">
-                                Reservation Question
-                            </label>
-                            <label for="suggestion">
-                                <input type="radio" id="suggestion" name="purpose"
-                                  value="suggestion">
-                                Website Suggestion
-                            </label>
-                            </di>
+                        <fieldset>
+                            <legend>Purpose of Contact</legend>
+                            <input type="radio" id="reservation" name="purpose" value="reservation">
+                            <label for="reservation">Reservation Question</label>
+                            for="suggestion">
+                            <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                            <label for="suggestion">Website Suggestion</label>
+                        </fieldset>
                     </div>
 
                     <div class="form-column">
